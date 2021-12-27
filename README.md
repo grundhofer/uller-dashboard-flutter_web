@@ -1,16 +1,16 @@
-# uller_web
+# Uller Dashboard - Flutter Web App
 
-A new Flutter project.
+The Ulla Web App can be used to trigger Firebase Cloud Message notifications, which are sent from the Ulla backend. For example, if ProductId 1 is selected, then all Android devices subscribed to ProductId 1 will receive a notification. The Uller backend is responsible for managing the subscriptions.
 
-## Getting Started
+#### Other Uller repos 
+- See the [Uller Android App](https://github.com/grundhofer/uller-android) repo for testing the notfication service.
+- See the [Uller Backend](https://github.com/grundhofer/uller-backend) repo to get the App running.
 
-This project is a starting point for a Flutter application.
+#### Prerequisites:
+- git clone https://github.com/grundhofer/uller-dashboard-flutter_web.git
 
-A few resources to get you started if this is your first Flutter project:
+#### Technologies:
+- Flutter SDK
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#### Example of notification trigger from Uller Web App
+![UllerAndroid notification](https://github.com/grundhofer/uller-dashboard-flutter_web/blob/main/docs/uller%20flutter%20notfication%20example%20footage.gif)
