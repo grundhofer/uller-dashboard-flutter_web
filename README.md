@@ -7,6 +7,7 @@ The Ulla Web App can be used to trigger Firebase Cloud Message notifications, wh
 - See the [Uller Backend](https://github.com/grundhofer/uller-backend) repo to get the App running.
 
 #### Prerequisites:
+- Uller Backend + Uller Android App
 - git clone https://github.com/grundhofer/uller-dashboard-flutter_web.git
 
 #### Technologies:
